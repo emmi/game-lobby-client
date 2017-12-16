@@ -1,0 +1,33 @@
+{
+  "name": "socket-io-client2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-react": "^0.12.3",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "grunt serve",
+    "build": "react-scripts build",
+    "lint": "eslint ./src/scripts",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-shell": "^2.1.0"
+  }
+}
